@@ -1,0 +1,13 @@
+### Testes automatizados - Curso completo Selenium e Java.
+
+- O que é QA ( Quality/Assurance)
+
+
+- Analista de QA,  é a pessoa responsável por fazer uma série de testes com foco em processo.
+
+- 10 Qualidades que um QA tem que ter para ser um QA diferenciado.
+
+- Boa comunicação;
+- Saber ouvir entender toda a regra de negócio para entregar um melhor produto;
+- Adaptabilidade;
+- 
