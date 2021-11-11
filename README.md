@@ -13,5 +13,5 @@
 - [x] Road Map Júnior QA.
 - [x] BDD - Behaviour Driven Development. 
 - [x] Tipos de testes. 
-- [x] Projeto Sistema.
+- [x] Projeto Sistema Controle.
 - [ ]  
