@@ -5,6 +5,6 @@
 
 ### RoadMap
 
-[x] - Entendendo um pouco sobre QA e suas caracteristicas.
-[x] - O que é pirâmide de testes.
-[x] - Road Map Júnior QA.
+- [x] - Entendendo um pouco sobre QA e suas caracteristicas.
+- [x] - O que é pirâmide de testes.
+- [x] - Road Map Júnior QA.
