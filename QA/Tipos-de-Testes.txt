@@ -1,0 +1,60 @@
+## Tesde de software 
+
+- Testes de caixa branca
+Por ter acesso ao código fonte, o profissional pode observar com mais atenção as determinadas etapas do código. Nesse processo, o usuário analisa por qual caminho ocorre o fluxo de dados e é possível verificar se há a passagem correta em todas as condições esperadas.
+
+- Teste de caixa-preta
+Sendo o oposto do item anterior, nesse procedimento a pessoa não tem acesso ao código fonte e nem a sua estrutura. Como é baseado nos requisitos funcionais, ele também é chamado de teste funcional.
+
+Quando testamos um código, devemos ficar atentos à maneira que os usuários acessam a aplicação. Por esse motivo, testar todas as combinações possíveis na área de entrada de dados é primordial.
+
+Para que o teste seja feito com sucesso, o resultado deve sair como esperado pelo usuário. Por exemplo, imagine que o cliente deve utilizar o seu RG e data de nascimento para acessar o portal do convênio médico.
+
+Como o programa espera que ambos os campos sejam preenchidos, caso o usuário consiga acessar a sua conta usando apenas um dos campos, significa que há uma falha na consistência de dados de entrada.
+
+O teste pode ser usado para testar casos como:
+
+consistir a entrada de datas futuras em datas de nascimento;
+consistir entrada de valores negativos em campos de pagamentos;
+verificar o funcionamento dos botões para prosseguir o fluxo de processamento.
+Testes de regressão
+Durante o desenvolvimento do programa, é comum termos as seguintes situações: ou a inclusão de uma nova funcionalidade pelo cliente ou encontrar um erro na lógica do código fonte.
+
+Independentemente do cenário, o desenvolvedor terá de fazer a alteração na programação. O problema é que, em alguns casos, uma simples mudança pode comprometer toda a lógica já escrita, invalidando quaisquer testes básicos feitos no processo de produção.
+
+Para evitar imprevistos, é recomendado que você faça, mesmo que a modificação seja pequena, o teste de regressão.
+
+- Teste de usabilidade
+Utilizando o ponto de vista do consumidor, o teste tem como objetivo verificar a experiência do usuário. Dessa forma, o responsável deve checar a organização dos itens disponíveis na tela, observar se o layout está correto e se os botões se comunicam corretamente entre as diferentes páginas do sistema.
+
+A verificação cobre também a performance do programa ao executar uma determinada ação. Afinal, não é difícil nos depararmos com um aplicativo que demora anos para ser carregado, não é mesmo? Dessa forma é possível imaginar o processo ter entrado em loop ou ter executado alguma função inesperada.
+
+O processo permite, também, verificar o comportamento da plataforma em diferentes dispositivos. Caso esteja utilizando diferentes navegadores ou dispositivos de tamanhos diferentes, saberemos o quanto o layout é responsivo ou não.
+
+Dito isso, vimos que a execução de teste pode se tornar desgastante em alguns momentos, por esse motivo você deve considerar a automação.
+
+- Segurança
+Os testes de software evoluíram muito com o tempo e um know-how maior foi adquirido pelos profissionais da área. Dentre os novos recursos utilizados para garantir o pleno funcionamento de um programa de computação estão os testes de segurança.
+
+Esse tipo de teste verifica a segurança do software no que diz respeito à proteção a ataques diversos a que pode estar submetido como hackers e vírus bem como na lida dos dados que são inseridos pelo usuário.
+
+- Integração
+Nesse teste, em vez de se atestar funcionalidades do software, se analisa a integração entre as diferentes unidades que formam o sistema. São averiguados aspectos como a interface e a dependência entre os componentes.
+
+- Performance
+Como o próprio nome sugere, atesta o desempenho do software. Se os comandos dados respondem rapidamente, se os componentes não demoram muito a carregar e se a experiência do usuário é satisfatória no produto testado. É de suma importância, pois por mais bem programado que um software possa ser, sua performance é que determinará o uso satisfatório das funções planejadas.
+
+- Instalação
+O teste de instalação verifica se sob diferentes condições como pouco espaço de memória, interrupções no sistema e demais entraves que podem comprometer esse processo, o programa consegue ser instalado ou se cede facilmente a essas limitações.
+
+Não é raro, por exemplo, quando alguém está usando um celular e vai instalar um programa novo e o aparelho trava ou a instalação é interrompida por alguns dos fatores citados acima. O melhor é que essas situações não aconteçam e esse processo possa rodar até o fim tranquilamente.
+
+- Manutenção
+Geralmente, um software não é feito para durar pouco tempo, tampouco uma única versão. Atualizações constantes são necessárias a fim de aprimorar os recursos do programa e a própria experiência do usuário com aquele produto. Os testes de manutenção averiguam se esses aprimoramentos acontecem com sucesso e se são aceitos pelo sistema. Sem isso, corre-se o risco do software tornar-se defasado e até mesmo inoperante pela falta de atualização.
+
+- Funcional
+O teste funcional abrange tanto o teste de caixa branca quanto o de caixa-preta abordado anteriormente nesse post. Sua importância consiste justamente na capacidade de determinar se o que o software foi programado para fazer está de fato fazendo.
+
+Ele pode ser feito tanto manualmente, quanto automaticamente ou mesmo em um misto dos dois. As várias funções são acessadas e testadas de formas diferentes a fim de encontrar falhas ou mesmo possíveis aprimoramentos no que já está sendo executado.
+
+Assim como o teste de performance, o funcional dá uma noção bastante real de como o software se comportará quando chegar até ao usuário. Isso permite que ajustes importantes sejam feitos antes de atender o seu público final.
