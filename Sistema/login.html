@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/css/base.css">
+    <link rel="stylesheet" href="./src/css/login.css">
+
+</head>
+<body>
+    <div class="container">
+        <form class="form-login">
+
+            <div class="alert alert-danger text-center alert-dismissible esconder">
+                <button type="button" class="close">&times;</button>
+               <span id="mensagem">E-mail ou senha inválidos</span>
+            </div>
+
+            <h1>Login</h1>
+
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input id="email" type="email" class="form-control" placeholder="exemplo@gmail.com" >
+            </div>
+
+            <div class="form-group">
+              <label for="senha">Senha</label>
+              <input id="senha"type="password" class="form-control" placeholder="123456" >
+            </div>
+     
+            <button id="btn-entrar" type="submit" class="btn btn-primary">Entrar</button>
+          </form>
+    </div>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="./src/js/credenciais.js"></script>
+    <script src="./src/js/base.js"></script>
+    <script src="./src/js/login.js"></script>
+</body>
+</html>

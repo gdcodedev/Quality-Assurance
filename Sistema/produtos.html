@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Produtos</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./src/css/base.css">
+    <link rel="stylesheet" href="./src/css/produtos.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Controle de produtos</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Voltar</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+ 
+        <div>
+            <button id="btn-adicionar" type="button" class="btn btn-primary">Criar</button>
+        </div>
+        <div>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>nome</th>
+                        <th>Quantidade</th>
+                        <th>Value</th>
+                        <th>Create date</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- The Modal -->
+        <div class="modal" id="cadastro-produto">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Produto</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="alert alert-danger text-center alert-dismissible esconder ">
+                            <button type="button" class="close">&times;</button>
+                           <span id="mensagem">Todos os campos são obrigatórios!</span>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">  
+                                <div class="form-group">
+                                    <label for="codigo">Código</label>
+                                    <input id="codigo" type="text" class="form-control" >
+                                </div>
+                            </div>
+                            <div class="col-sm-8">
+                                <div class="form-group">
+                                    <label for="nome">Nome</label>
+                                    <input id="nome" type="text" class="form-control" >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-4">  
+                                <div class="form-group">
+                                    <label for="quantidade">Quantidade</label>
+                                    <input id="quantidade" type="text" class="form-control" >
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="form-group">
+                                    <label for="valor">Valor</label>
+                                    <input id="valor" type="text" class="form-control" >
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="form-group">
+                                    <label for="data">Data cadastro</label>
+                                    <input id="data" type="date" class="form-control" >
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button id="btn-salvar" type="button" class="btn btn-primary" >Salvar</button>
+                        <button id="btn-sair" type="button" class="btn btn-light">Sair</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="./src/js/Produto.js"></script>
+    <script src="./src/js/credenciais.js"></script>
+    <script src="./src/js/base.js"></script>
+    <script src="./src/js/produtos.js"></script>
+</body>
+
+</html>

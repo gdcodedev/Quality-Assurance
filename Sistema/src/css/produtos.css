@@ -1,0 +1,11 @@
+.container{
+    margin-top: 20px;
+}
+.modal-dialog{
+   max-width: 700px;
+}
+
+table.table {
+    margin-top: 10px;
+    box-shadow: 0 0 10px 0 rgb(50 50 50 / 82%);
+}
