@@ -31,3 +31,9 @@
 - Saber oque é pirâmide de teste;
 - Arquitetura Web [Monolito, Web Services, Back-end, Front-end, Middle Ware];
 - Conhecer as ferramentas[ Interface, API, Mobile];
+
+
+### O que é pirâmide de teste
+
+- A pirâmide de testes é uma ilustração que permite visualizar de forma simples os tipos de testes,
+ seus níveis, velocidades, complexidades e “custos”. Além disso ela busca dar um direcionamento em relação a quantidade de testes a ser implementados em cada nível.
