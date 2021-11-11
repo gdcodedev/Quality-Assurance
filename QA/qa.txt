@@ -10,4 +10,24 @@
 - Boa comunicação;
 - Saber ouvir entender toda a regra de negócio para entregar um melhor produto;
 - Adaptabilidade;
-- 
+- Priorização;
+- Trabalho em equipe;
+- Ética de trabalho;
+- Pensamento crítico;
+- Capacidade de tomada de decisão;
+- Aprendizado e atitude de querer aprender;
+- Raciocínio lógico;
+
+
+- O que é necessário para ser um QA Júnior.
+
+- Processos de testes;
+- Processos de Softwares;
+- Processos Ágeis;
+- Técnicas de testes [ Caixa branca, Caixa preta, Caixa cinza, Mutação, Exploratório ];
+- Níveis de testes [Únidade, Sistema, Integração, Regressão, Componente];
+- Conhecer uma ou mais linguagens de programação [Java, JavaScript];
+- Saber interagir com Git e GitHub;
+- Saber oque é pirâmide de teste;
+- Arquitetura Web [Monolito, Web Services, Back-end, Front-end, Middle Ware];
+- Conhecer as ferramentas[ Interface, API, Mobile];
